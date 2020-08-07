@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { WebHeaderComponent } from "./web-header/web-header.component";
+import { WebCardCarouselComponent } from "./web-card-carousel/web-card-carousel.component";
 
 @Component({
   selector: 'app-root',

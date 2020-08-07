@@ -1,3 +1,8 @@
-.list-margin {
-  margin-right: 10px;
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 1.3px;
+  margin-bottom: 1.3px;
+  width: 99%;
 }

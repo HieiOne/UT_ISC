@@ -1,0 +1,29 @@
+body {
+  margin: auto;
+  width: 99%;
+}
+
+/* body:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.cards-size {
+  float: left;
+  margin: 1%;
+  width: 45%;
+  height: 45%;
+}
+
+/* .card {
+  margin: 10px;
+} */
+
+@media screen and (max-width: 600px) {
+  .cards-size {
+    width: 100%;
+    margin: 0;
+    margin-top: 1%;
+  }
+}
