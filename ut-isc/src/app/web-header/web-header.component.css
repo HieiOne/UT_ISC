@@ -42,6 +42,13 @@
   color: #7289DA;
 }
 
+@media screen and (max-width: 395px) {
+  .discord-color {
+    display: none;
+  }
+}
+
+
 .steam-color {
   /* background-color: #00adee; */
   background-color: #5c7e10;
