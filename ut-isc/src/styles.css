@@ -1,2 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 html { background-color: #161819; }
+
+@font-face {
+  font-family: grotesque;
+  src: url(./assets/fonts/getvoip_grotesque.ttf);
+}
+
+* {
+  font-family: grotesque;
+}

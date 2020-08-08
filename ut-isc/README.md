@@ -2,7 +2,7 @@
 
 #Packages needed 
 npm install bootstrap jquery @popperjs/core
-npm install font-awesome
+npm install --save @fortawesome/fontawesome-free
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 

@@ -19,3 +19,44 @@
   margin-right: auto;
   width: 99%;
 }
+
+.discord-color {
+  background-color: #2C2F33;
+  border-color: #7289DA;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: small;
+  text-transform: uppercase;
+  color: #e5e4dc;
+  border-width: 2px;
+  width: 250px;
+}
+
+.discord-color:hover {
+  background-color: #23272A;
+  border-color: #7e99f2;
+  color: white;
+}
+
+.discord-image-color {
+  color: #7289DA;
+}
+
+.steam-color {
+  /* background-color: #00adee; */
+  background-color: #5c7e10;
+  border-color: #000000;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: small;
+  text-transform: uppercase;
+  color: #e5e4dc;
+  border-width: 2px;
+  width: 250px;
+}
+
+.steam-color:hover {
+  background-color: #6a9113;
+  border-color: #2C2F33;
+  color: white;
+}
