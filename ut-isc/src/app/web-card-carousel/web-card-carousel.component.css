@@ -1,6 +1,5 @@
 body {
   margin: auto;
-  width: 99%;
 }
 
 /* body:after {
@@ -8,10 +7,16 @@ body {
   display: table;
   clear: both;
 } */
+.space {
+  margin: auto;
+  margin-top: 1%;
+  width: 99%;
+}
 
 .cards-size {
   float: left;
   margin: 1%;
+  margin-left: 2.5%;
   width: 45%;
   height: 45%;
 }
