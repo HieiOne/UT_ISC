@@ -11,12 +11,13 @@ body {
   margin: auto;
   margin-top: 1%;
   width: 99%;
+  float: left;
 }
 
 .cards-size {
   float: left;
   margin: 1%;
-  margin-left: 2.5%;
+  margin-left: 3.3%;
   width: 45%;
   height: 45%;
 }

@@ -3,6 +3,7 @@
 #Packages needed 
 npm install bootstrap jquery @popperjs/core
 npm install --save @fortawesome/fontawesome-free
+npm install --save passport-steam
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
