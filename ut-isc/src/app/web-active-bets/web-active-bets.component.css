@@ -1,0 +1,9 @@
+/* Make row scrollable */
+.scrollable > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.btn {
+  font-size: small;
+}
