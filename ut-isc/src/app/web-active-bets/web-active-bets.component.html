@@ -7,11 +7,11 @@
         <div class="row">
           <div class="col-2 d-none d-lg-block"></div>
           <div class="col align-self-center"><button type="button" class="btn btn-danger">REGIONS</button></div>
-          <div class="col"><button type="button" class="btn btn-info h-100 w-100">EUROPE</button></div>
-          <div class="col"><button type="button" class="btn btn-info h-100 w-100">SOUTH AMERICA</button></div>
-          <div class="col"><button type="button" class="btn btn-info h-100 w-100">NORTH AMERICA</button></div>
-          <div class="col"><button type="button" class="btn btn-info h-100 w-100">KOREA</button></div>
-          <div class="col"><button type="button" class="btn btn-info h-100 w-100">TEST</button></div>
+          <div class="col"><button type="button" (click)="onSelect($event.target)" id="#EUROPE" class="btn btn-info h-100 w-100">EUROPE</button></div>
+          <div class="col"><button type="button" (click)="onSelect($event.target)" id="#SAMERICA" class="btn btn-info h-100 w-100">SOUTH AMERICA</button></div>
+          <div class="col"><button type="button" (click)="onSelect($event.target)" id="#NAMERICA" class="btn btn-info h-100 w-100">NORTH AMERICA</button></div>
+          <div class="col"><button type="button" (click)="onSelect($event.target)" id="#KOREA" class="btn btn-info h-100 w-100">KOREA</button></div>
+          <div class="col"><button type="button" (click)="onSelect($event.target)" id="#TEST" class="btn btn-info h-100 w-100">TEST</button></div>
         </div>
       </div>
     </div>
@@ -22,7 +22,43 @@
 
     <!-- COMPETITIONS -->
     <div class="col-sm-2 mt-3 align-self-center">
-      <ul class="nav nav-list">
+      <ul id="EUROPE" class="nav nav-list collapse">
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/cup.png" alt="LIGA SANTANDER"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/iosf.png" alt="BUNDESLIGA"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/league.png" alt="PREMIER LEAGUE"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/summit.png" alt="MSL"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/supercup.png" alt="LIGUE 1"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaLiga_Santander.svg/1200px-LaLiga_Santander.svg.png" alt="LIGA SANTANDER"></li>
+      </ul>
+
+      <ul id="SAMERICA" class="nav nav-list collapse">
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="https://i0.wp.com/kalot.com.mx/site/wp-content/uploads/2013/12/bundesliga-logo-2010.png?fit=634%2C545&ssl=1" alt="LIGA SANTANDER"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="https://logodownload.org/wp-content/uploads/2019/09/ligue-1-logo.png" alt="BUNDESLIGA"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/league.png" alt="PREMIER LEAGUE"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/summit.png" alt="MSL"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/supercup.png" alt="LIGUE 1"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaLiga_Santander.svg/1200px-LaLiga_Santander.svg.png" alt="LIGA SANTANDER"></li>
+      </ul>
+
+      <ul id="NAMERICA" class="nav nav-list collapse">
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/cup.png" alt="LIGA SANTANDER"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/iosf.png" alt="BUNDESLIGA"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/league.png" alt="PREMIER LEAGUE"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/summit.png" alt="MSL"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/supercup.png" alt="LIGUE 1"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaLiga_Santander.svg/1200px-LaLiga_Santander.svg.png" alt="LIGA SANTANDER"></li>
+      </ul>
+
+      <ul id="KOREA" class="nav nav-list collapse">
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/cup.png" alt="LIGA SANTANDER"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/iosf.png" alt="BUNDESLIGA"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/league.png" alt="PREMIER LEAGUE"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/summit.png" alt="MSL"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/supercup.png" alt="LIGUE 1"></li>
+        <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaLiga_Santander.svg/1200px-LaLiga_Santander.svg.png" alt="LIGA SANTANDER"></li>
+      </ul>
+
+      <ul id="TEST" class="nav nav-list collapse">
         <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/cup.png" alt="LIGA SANTANDER"></li>
         <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/iosf.png" alt="BUNDESLIGA"></li>
         <li class="list-group-item ioc-list-responsive mb-3"><img class="comp-imgs" src="../../assets/images/badges/league.png" alt="PREMIER LEAGUE"></li>
