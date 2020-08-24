@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
-import "bootstrap";
+import "bootstrap/js/dist/collapse";
 
 @Component({
   selector: 'app-web-active-bets',
