@@ -1,9 +1,9 @@
 # UtIsc
 
 #Packages needed 
-npm install bootstrap jquery @popperjs/core
-npm install --save @fortawesome/fontawesome-free
-npm install --save passport-steam
+bootstrap jquery @popperjs/core font-awesome
+
+(npm install bootstrap jquery @popperjs/core font-awesome)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
