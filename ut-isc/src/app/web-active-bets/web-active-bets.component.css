@@ -65,7 +65,6 @@ hr.rounded {
   border-radius: 5px;
   width: 99%;
   overflow: auto;
-  margin-top: 6%;
 }
 
 .betBox {
@@ -73,7 +72,7 @@ hr.rounded {
   overflow: auto;
 }
 
-.betBox, .tournamentBox {
+.betBox {
   border-radius: 5px;
   border: 3px solid #bbb;
   border-color: white;
@@ -84,4 +83,71 @@ hr.rounded {
 .tournamentBox {
   width: 50%;
   float: left;
+  text-align: center;
+  border-radius: 5px;
+  /* border: 3px solid #bbb; */
+  border-color: white;
+  color: white;
+  padding: 1%;
+}
+
+@media screen and (max-width: 600px) {
+  .tournamentBox {
+    width: 100%;
+  }
+}
+
+.tournamentBox > a > img {
+  max-height: 50px;
+}
+
+.scoreBox, .scoreBetsBox {
+  border-radius: 5px;
+  padding: 5%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.scoreBox {
+  border: 3px solid #bbb;
+}
+
+#match-ngvstempest {
+  background: linear-gradient(to right, #9900cc 0%, #006600 58%);
+  /* To change the direction of the gradient is as easy as exceeding the 100% in the right percentage, the 100 is equal to 50 since the first percentage is 0 */
+  /* https://www.w3schools.com/colors/colors_gradient.asp*/
+}
+
+#match-xgoalvsdream {
+  background: linear-gradient(to right, #6699ff 0%, #cc0000 110%);
+}
+
+#match-excelvsfalse11 {
+  background: linear-gradient(to right, #339933 0%, #cccc00 100%);
+}
+
+.sb-teamlogo {
+  width: 30%;
+}
+
+.sb-teamlogo > a > img {
+  width: 100%;
+  height: auto;
+}
+
+.sb-score-info {
+  width: 40%;
+}
+
+.sb-bet {
+  float: left;
+  width: 30%;
+  margin: 0 auto;
+  border: 3px solid #bbb;
+  border-radius: 5px;
 }
