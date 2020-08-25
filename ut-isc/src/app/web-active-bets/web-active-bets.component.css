@@ -100,3 +100,8 @@ hr.rounded {
 .tournamentBox > a > img {
   max-height: 50px;
 }
+
+.scoreBox, .scoreBetsBox {
+  border: 3px solid #bbb;
+  text-align: center;
+}
