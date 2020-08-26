@@ -11,6 +11,7 @@ export class WebHomeStatisticsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.increaseCounter();
   }
 
   increaseCounter(): void {
@@ -28,23 +29,23 @@ export class WebHomeStatisticsComponent implements OnInit {
     });
   }
 
-  @ViewChild('statistics') m: ElementRef;
-  private isVisible: boolean = false;
+  // @ViewChild('statistics') m: ElementRef;
+  // private isVisible: boolean = false;
 
-  ngAfterViewInit(): void
-  {
-      if (this.isVisible == false && this.m.nativeElement.offsetParent != null)
-      {
-          console.log('isVisible switched from false to true');
-          this.isVisible = true;
-          this.increaseCounter();
-      }
-      else if (this.isVisible == true && this.m.nativeElement.offsetParent == null)
-      {
-          console.log('isVisible switched from true to false');
-          this.isVisible = false;
-      }
-  }
+  // ngAfterViewInit(): void
+  // {
+  //     if (this.isVisible == false && this.m.nativeElement.offsetParent != null)
+  //     {
+  //         console.log('isVisible switched from false to true');
+  //         this.isVisible = true;
+  //         this.increaseCounter();
+  //     }
+  //     else if (this.isVisible == true && this.m.nativeElement.offsetParent == null)
+  //     {
+  //         console.log('isVisible switched from true to false');
+  //         this.isVisible = false;
+  //     }
+  // }
 
 
 }

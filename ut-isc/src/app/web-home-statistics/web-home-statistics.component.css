@@ -1,5 +1,4 @@
 .h-stats {
-  margin-top: 1%;
   margin-left: auto;
   margin-bottom: auto;
   margin-right: auto;
@@ -25,8 +24,8 @@
 }
 
 .stat-countBox > img {
-  height: 60px;
-  width: 60px;
+  height: 35px;
+  width: 35px;
   margin-right: 5px;
   /* position: absolute; */
   /* z-index:100; */
