@@ -6,6 +6,16 @@
   color: gold;
 }
 
+@media only screen and (min-device-width: 1024px) {
+  .h-stats {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
+}
+
 .bg-color {
   background-color: #343A40;
 }
