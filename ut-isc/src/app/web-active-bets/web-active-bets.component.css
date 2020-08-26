@@ -150,4 +150,10 @@ hr.rounded {
   margin: 0 auto;
   border: 3px solid #bbb;
   border-radius: 5px;
+  background-color: #6b7f8f;
+}
+
+.sb-bet:hover {
+  background-color: #bbb;
+  transition: 0.3s;
 }
