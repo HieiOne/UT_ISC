@@ -1,0 +1,53 @@
+.h-stats {
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  width: 99%;
+  color: gold;
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .h-stats {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
+}
+
+.bg-color {
+  background-color: #343A40;
+}
+
+.stat-countBox {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.countText {
+  color: goldenrod;
+  margin-left: 5px;
+}
+
+.stat-countBox > img {
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+  /* position: absolute; */
+  /* z-index:100; */
+}
+
+#button{
+  border:solid 2px;
+  border-radius: 8px;
+  width: 25px;
+  height: 23px;
+  float:right;
+  cursor:pointer;
+  text-align: center;
+  margin-bottom: 5px;
+}
