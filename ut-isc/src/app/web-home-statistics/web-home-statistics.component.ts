@@ -9,6 +9,7 @@ import * as $ from 'jquery';
 export class WebHomeStatisticsComponent implements OnInit {
 
   constructor() { }
+  toggle;
 
   ngOnInit(): void {
     this.increaseCounter();
@@ -27,6 +28,12 @@ export class WebHomeStatisticsComponent implements OnInit {
           }
       });
     });
+  }
+
+  slideToggle(): void {
+    console.log("Clicked");
+    this.toggle = !this.toggle;
+    $(".h-stats > .container").slideToggle();
   }
 
   // @ViewChild('statistics') m: ElementRef;

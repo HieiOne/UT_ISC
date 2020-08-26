@@ -1,5 +1,7 @@
 <div class="h-stats bg-color" #statistics>
 
+  <div id="button" (click)="slideToggle()" ng-init="toggle = true" ng-click="toggle = !toggle"><span>{{toggle ? '+' : '-'}}</span></div>
+
   <div class="container mt-3">
 
     <div class="row">
@@ -29,8 +31,6 @@
       </div>
 
     </div>
-
   </div>
-
 </div>
 

@@ -40,3 +40,14 @@
   /* position: absolute; */
   /* z-index:100; */
 }
+
+#button{
+  border:solid 2px;
+  border-radius: 8px;
+  width: 25px;
+  height: 23px;
+  float:right;
+  cursor:pointer;
+  text-align: center;
+  margin-bottom: 5px;
+}
