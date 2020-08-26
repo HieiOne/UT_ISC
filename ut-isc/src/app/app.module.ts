@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { WebHeaderComponent } from './web-header/web-header.component';
 import { WebCardCarouselComponent } from './web-card-carousel/web-card-carousel.component';
 import { WebActiveBetsComponent } from './web-active-bets/web-active-bets.component';
+import { WebHomeStatisticsComponent } from './web-home-statistics/web-home-statistics.component';
 //import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
@@ -12,7 +13,8 @@ import { WebActiveBetsComponent } from './web-active-bets/web-active-bets.compon
     AppComponent,
     WebHeaderComponent,
     WebCardCarouselComponent,
-    WebActiveBetsComponent
+    WebActiveBetsComponent,
+    WebHomeStatisticsComponent
   ],
   imports: [
     BrowserModule
